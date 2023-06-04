@@ -103,7 +103,7 @@ public class Parser {
                 error( "Consulta no válida");
                 return;
             } else if (getProductions(topValueStack, preanalisis) == null || getProductions(topValueStack, preanalisis).isEmpty()) {
-                error( "Consulta no válida");
+                error( "Consulta no válida1");
                 return;
             }
 
